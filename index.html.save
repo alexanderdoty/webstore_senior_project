@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alex Doty Swag - Tastefully Thrifted Fashion">
+    <title>Alex Doty Swag</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #808080;
+            color: #333;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #ddd;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            font-size: 1.5em;
+            font-weight: 700;
+            letter-spacing: 2px;
+            color: #333;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin-left: 20px;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #555;
+        }
+        .hero {
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-image: url('hero-image.jpg');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3.5em;
+            color: #fff;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.2em;
+            color: #ddd;
+            margin-top: 10px;
+        }
+        .hero a {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #333;
+            color: #ddd;
+            text-decoration: none;
+            margin-top: 20px;
+            border-radius: 25px;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+        }
+        .hero a:hover {
+            background-color: #555;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 30px;
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .product {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .product h3 {
+            font-size: 1.5em;
+            margin: 15px 0 10px;
+            color: #333;
+        }
+        .product p {
+            font-size: 1em;
+            color: #777;
+        }
+        .product:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            color: #777;
+            border-top: 1px solid #ddd;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Alex Doty Swag</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#shop">Shop</a>
+            <a href="about.html">About</a>
+            <a href="#contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Tastefully Thrifted Fashion</h1>
+        <p>Hand-picked, one-of-a-kind pieces for every style</p>
+        <a href="#shop">Shop Now</a>
+    </section>
+
+    <section class="product-grid" id="shop">
+        <div class="product">
+            <img src="black_tshirt.jpg" alt="Product 1">
+            <h3>Black T-Shirt</h3>
+		<p>A classic black tee for any occasion.</p>
+            <a href="https://buy.stripe.com/bIYg159bcgvw9dm001" class="buy-now">Buy Now</a>
+            <p>$40.00</p>
+        </div>
+        <div class="product">
+            <img src="floral_shirt.jpg" alt="Product 2">
+            <h3>Floral Shirt</h3>
+		<p>Stand out with this vibrant floral design.</p>
+            <a href="https://buy.stripe.com/eVa6qvevwenoblu5kk" class="buy-now">Buy Now</a>
+            <p>$35.00</p>
+        </div>
+	<div class="product">
+	<img src="
+        <!-- Add more product blocks as needed -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Alex Doty Swag. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
